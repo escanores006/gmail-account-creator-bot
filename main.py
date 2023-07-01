@@ -12,8 +12,8 @@ def run():
     try:
         # Set up driver
         desired_cap = {}
-        userName = "your_user_name"
-        accessKey = "your_access_key"
+        userName = "escanorapi_ACog6sYzNG"
+        accessKey = "nHJXsxDXKsE2sRWLzKGP"
         driver = webdriver.Remote("http://" + userName + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub", desired_cap)
         driver.find_element_by_xpath("//*[@text='SIGN IN']").click()
         driver.find_element_by_xpath("//*[@resource-id='view_container']//android.widget.Spinner").click()
